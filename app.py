@@ -74,7 +74,4 @@ if submitted and raw_text:
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("💾 Download CSV", csv, "npi_results.csv", "text/csv")
 
-    st.markdown("---")
-    st.subheader("Support the Build")
-    st.write("If this tool saves you time, consider leaving a tip.")
-    st.link_button("☕ Tip via Venmo", "https://venmo.com/u/aydenzosche")
+    
